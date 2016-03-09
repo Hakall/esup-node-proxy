@@ -3,6 +3,6 @@
     "proxy_port": X443,
     "ssl_cert" : "/certs/XXXXXX.cert",
     "ssl_key" : "/certs/XXXXX.key",
-    "esup_otp-api_address": "XXXX",
-    "esup_otp_api_port": "XXXX"
+    "otp-api_address": "XXXX",
+    "otp_api_port": "XXXX"
 }
