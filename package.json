@@ -1,0 +1,10 @@
+{
+  "name": "esup-node-proxy",
+  "version": "1.0.0",
+  "description": "Simple reverse proxy",
+  "author": "Alex Bouskine <abouskine@gmail.com>",
+  "dependencies": {
+    "http-proxy": "^1.13.2"
+  },
+  "bin": "./proxy.js"
+}
