@@ -11,7 +11,7 @@ var proxy = httpProxy.createServer({
   },
   ssl: {
     key: fs.readFileSync(process.cwd() + properties.esup.ssl_key, 'utf8'),
-    cert: fs.readFileSync(process.cwd() + properties.esup.ssl_cert, 'utf8')
+    cert: fs.readFileSync(process.cwd() + properties.esup.ssl_cert, 'utf8'),
   }
 });
 
@@ -25,3 +25,4 @@ proxy.on('error', function (err, req, res) {
 });
 
 proxy.listen(properties.esup.proxy_port);
+console.log('proxying '+properties.esup.otp_api_port +' to '+properties.esup.proxy_port);
