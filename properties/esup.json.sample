@@ -1,8 +1,0 @@
-{   
-    "proxy_address": "XXXXXXX",
-    "proxy_port": X443,
-    "ssl_cert" : "/certs/XXXXXX.cert",
-    "ssl_key" : "/certs/XXXXX.key",
-    "otp-api_address": "XXXX",
-    "otp_api_port": "XXXX"
-}

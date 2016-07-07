@@ -1,0 +1,9 @@
+{
+    "proxy_address": "localhost",
+    "proxy_port": 3443,
+    "ssl_cert" : "/certs/HTTPS.cert",
+    "ssl_key" : "/certs/HTTPS.key",
+    "otp_api_port": 3000,
+    "otp_api_address": "localhost",
+    "mode": "dev"
+}
